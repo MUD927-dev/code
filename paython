@@ -1,1 +1,35 @@
+Here are the basic GitHub commands to push your code to GitHub:
 
+Step 1: Initialize a Git repository
+
+git init
+
+Step 2: Add files to staging area
+
+git add . (adds all files) or git add <file_name> (adds specific file)
+
+Step 3: Commit changes
+
+git commit -m "commit message"
+
+Step 4: Link local repository to GitHub
+
+git remote add origin <repository_url>
+
+Step 5: Push code to GitHub
+
+git push -u origin <branch_name> (e.g., git push -u origin main)
+
+Other useful commands:
+
+- git status (check repository status)
+- git log (view commit history)
+- git branch (list branches)
+- git checkout <branch_name> (switch branches)
+
+If you encounter issues, you can use:
+
+- git pull origin <branch_name> (pull changes from GitHub)
+- git push --force origin <branch_name> (force push, use with caution)
+
+Remember to replace <repository_url> and <branch_name> with your actual repository URL and branch name.
